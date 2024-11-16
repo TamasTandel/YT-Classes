@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    height: 90px;
+}
+.menu{
+    height: 40px;
+}
+.courses{
+    width: 100vw;
+    background-color:white ;
+}
+.box{
+    height:350px;
+    width: 400px;
+    margin: 20px;
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.faculty{
+    width: 100vw;
+    background-color: white;
+}
+.f{
+    height: 480px;
+    width: 250px;
+    margin: 20px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 20px;
+}
+.details{
+    height: 200px;
+    overflow-y: scroll;
+}
+.fImg{
+    width: 200px;
+    height: 240px;
+}
+.t{
+    height: 270px;
+    width:200px;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+.ti{
+    height: 150px;
+    width: 130px;
+    margin: 10px;
+}
+.full{
+    overflow-x: hidden;
+}
+.main{
+    height: 100%;
+    width: 100vw;
+    background-image: url('img/premium_photo-1708704583781-c7a325d6fa41.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+}
+.brand{
+    font-size: 25px;
+    font-weight: 900;
+}
+.menu{
+    height: 40px;
+}
+.menuBar{
+    height: 100vh;
+    width: 350px;
+    right: -350px;
+    background-color: white;
+    color: black;
+    position: relative;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 30;
+}
+.close{
+    float: right;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    z-index: 10;
+}
+.sideBar{
+    margin-top: 60px;
+}
+.sideBar>a{
+    padding: 10px 0px 0px 20px;
+    z-index: 20;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-left: 20px;
+}
+
+.ten{
+    height: 400px;
+    overflow-y: scroll;
+}
+.twelve{
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.ab{
+    position: absolute;
+}
+.re{
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+    width: 60vw;
+}
+.clh{
+    font-size: 50px;
+}
+.glass{
+    background-color: #00000060;
+}
+.cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+.yuvaFont{
+    font-size: 5vh;
+    font-weight: 900;
+    color: blue;
+}
+.oppertunity{
+    font-size: 4vh;
+    font-weight: 500;
+    color: blue;
+}
+.memoryImg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-color: transparent;
+    overflow-x: hidden;
+    background-position: center;
+    height: 100vh;
+}
+.mem1{
+    background-image: url('img/memory /IMG-20240822-WA0032.jpg');
+    height: 100vw;    
+}
+.mem2{
+    background-image: url('img/memory /IMG-20240822-WA0033.jpg');
+}
+.mem3{
+    background-image: url('img/memory /IMG-20240822-WA0034.jpg');
+}
+.mem4{
+    background-image: url('img/memory /IMG-20240822-WA0035.jpg'        );
+}
+.class{
+    width: 80vw;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.class>div{
+    width: 200px;
+}
+.classes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media(min-width: 980px){
+    .class{
+        width: 450px;
+    }
+}
+h1{
+    height: 48px;
+}
+.ten:hover{
+    height: 100%;
+}
+.twelve:hover{
+    height: 100%;
+}

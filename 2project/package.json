@@ -1,0 +1,17 @@
+{
+  "name": "classes",
+  "version": "1.0.0",
+  "description": "this is a website for Yuva tution Classes",
+  "main": "y.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node y.js",
+    "dev": "nodemon y.js"
+  },
+  "author": "Tamas Tandel",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
